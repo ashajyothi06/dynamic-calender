@@ -1,25 +1,54 @@
-#### Developing a React calendar application involves creating a dynamic, interactive interface that allows users to view, add, edit, and manage events on a calendar. Here’s a brief summary of the key steps involved:
+# Dynamic Event Calendar Application
 
-1. Setup Environment: Set up your React development environment using tools like create-react-app, Vite, or Next.js. Install necessary dependencies such as dayjs or date-fns for date manipulation, and optionally, a state management library like Redux Toolkit.
+A fully responsive, feature-rich event calendar application built with React.js.This project demonstrates advanced React.js logic, clean UI design, and deployment capabilities.
 
-2. Design the UI: Create the basic layout of the calendar, including a header (for month/year navigation) and a grid to display days of the month. You can use libraries like React Bootstrap, Material-UI, or Tailwind CSS for styling.
+---
 
-3. Build Calendar Logic:
+## 🚀 Features
 
-- Calculate days of the month, weeks, and display them correctly in the calendar grid.
-- Highlight the current date, weekends, and any special days.
-- Allow navigation between months and years using buttons or dropdowns.
+### Calendar View
+- Displays a calendar grid for the current month.
+- Navigation buttons to switch between months ("Previous" and "Next").
+- Highlights the current day and visually marks the selected day.
 
-4. Event Management:
+### Event Management
+- **Add Events**: Click on a day to add events with:
+  - Event name
+  - Start time and end time
+  - Optional description
+- **Edit Events**: Update event details.
+- **Delete Events**: Remove unwanted events.
+- **Event List**: View all events for the selected day in a modal.
 
-- Allow users to add, edit, and delete events on specific dates.
-- Use modals or side panels for user interactions when creating or editing events.
+### Data Persistence
+- Uses **localStorage** to save events and persist them across page refreshes.
 
-5. State Management:
+### Advanced Logic
+- Prevents overlapping events for the same day.
+- Automatically handles month transitions (e.g., Jan 31 to Feb 1).
+- Filters events by keywords.
 
-- Use state management to keep track of the current date, selected date, and events.
-- Store events locally or connect to a backend API/database for persistent storage.
+### Bonus Features
+- Drag-and-drop functionality to reschedule events.
+- Color coding for events (e.g., work, personal, others).
 
-6. Deployment:
 
-- Deploy the application using platforms like Netlify, Vercel, or GitHub Pages.
+
+## 📦 Installation and Setup
+
+Follow the steps below to set up the project locally:
+
+### Prerequisites
+- Node.js (v16+)
+- npm or yarn package manager
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ashajyothi06/calender
+   cd event-calendar
+2. Install dependencies:
+
+3. Start the development server:
+
+4. open in the browser
